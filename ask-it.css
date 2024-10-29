@@ -1,0 +1,161 @@
+/*========================================================================//
+//						Askit Custom Dashboard Styles			  		  //
+//========================================================================*/
+
+.askit-clear {
+	width: 100%;
+	height: 0;
+	clear: both;
+}
+
+.askit-sep {
+	width: 100%;
+	height: 0;
+	margin: 0 0 5px;
+	clear: both;
+	border-top: 1px solid #D7E5EE;
+}
+
+.askit-sep:last-of-type {
+	display: none;
+}
+
+/*========================================================================//
+//						Askit My Questions						  		  //
+//========================================================================*/
+
+.askit-q {
+	margin: 0 0 5px;
+}
+
+.askit-q a.askit-toggle {
+	display: block;
+	width: 100%;
+	padding: 3px 0;
+}
+
+.askit-q a.askit-toggle span.title {
+	float: left;
+	max-width: 72%;
+	line-height: 18px;
+}
+
+.askit-q a.askit-toggle span.meta {
+	float: right;
+}
+
+.askit-q a.askit-unanswered span.meta {
+	color: #ababab;
+}
+
+.askit-q-inside {
+	display: none;
+	margin-left: 15px;
+}
+
+.askit-q-controls {
+	float: right;
+	margin: 0 0 8px 8px;
+}
+
+.askit-q-controls a, .askit-q-controls span {
+	padding: 3px 5px;
+	background-color: #e6e6e6;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.askit-q-controls span.askit-public {
+	background-color: green;
+	opacity: 0.5;
+	color: #fff;
+}
+
+.askit-q-controls a.askit-remove:hover {
+	background-color: red;
+	color: #fff;
+}
+
+.askit-q-inside .askit-question {
+	font-style: italic;
+}
+
+.askit-q-inside .askit-answer {
+	margin-top: 10px;
+}
+
+#askit_my_questions .askit-q-inside .askit-answer > h4 {
+	margin-left: -15px;
+	margin-bottom: 8px;
+}
+
+/*========================================================================//
+//						Askit Question Form						  		  //
+//========================================================================*/
+
+#askit-question h4 {
+	float: left;
+	width: 10%;
+	margin-right: 1%;
+	font-weight: normal;
+	text-align: right;
+	line-height: 20px;
+}
+
+#askit-question .input-text-wrap, #askit-question .textarea-wrap {
+	float: left;
+	width: 87%;
+}
+
+#askit-question .askit-submit {
+	margin-top: 5px;
+	margin-left: 11%;
+}
+
+#askit-question input[type=submit] {
+	float: right;
+	margin-right: 5px;
+}
+
+#askit-question .askit-publishing-action img {
+	visibility: hidden;
+	float: right;
+	margin: 4px 5px 0 0;
+}
+
+/*========================================================================//
+//						Askit Settings Page						  		  //
+//========================================================================*/
+
+.askit-settings-pane {
+	display: none;
+}
+
+.askit-settings-pane.current {
+	display: block;
+}
+
+.askit-nav.current {
+	color: #000;
+	text-decoration: none;
+	cursor: default;
+}
+
+.askit.wrap h4 {
+	margin-left: 5px;
+}
+
+.askit-hidden {
+	display: none;
+}
+
+/*========================================================================//
+//						Askit CPT Page							  		  //
+//========================================================================*/
+
+#the_askit_question {
+	width: 98%;
+	height: 4em;
+}
